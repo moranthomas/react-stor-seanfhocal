@@ -11,19 +11,15 @@ const ProverbItem = ({ item }) => {
           <img src={images[item.char_id].icon} alt='' />
         </div>
         <div className='card-back'>
-          <h1>{item.name}</h1>
+          <h1>{item.proverb}</h1>
+          <br/>
           <ul>
             <li>
-              <strong>Actor Name:</strong> {item.portrayed}
+              <strong>Explanation:</strong> {item.irish}
             </li>
+            <br/>
             <li>
-              <strong>Nickname:</strong> {item.nickname}
-            </li>
-            <li>
-              <strong>Birthday:</strong> {item.birthday}
-            </li>
-            <li>
-              <strong>Status:</strong> {item.status}
+              <strong>English:</strong> {item.english}
             </li>
           </ul>
         </div>
