@@ -1,15 +1,12 @@
 /*jshint esversion: 6 */
-import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
+
+import React  from 'react';
+//import React, { useState, useEffect, useRef } from 'react';
+//import axios from 'axios';
 import Header from './components/ui/Header';
 import ProverbGrid from './components/proverbs/ProverbGrid';
 //import Search from './components/ui/Search';
 import './App.css';
-import ProverbItem from './components/proverbs/ProverbItem';
-import logo from './img/logo.png';
-
-import hammer from './img/hammer.png';
-
 
 
 const App = () => {
