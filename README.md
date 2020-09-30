@@ -1,6 +1,6 @@
-# Breaking Bad Cast
+# Stor Seanfhocal Book Website
 
-React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show
+React project showcases the Seanfhocal book
 
 # Usage
 
