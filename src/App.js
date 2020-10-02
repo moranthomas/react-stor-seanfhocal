@@ -28,29 +28,29 @@ const App = () => {
 
   const proverb1 = {
     char_id: '0',
-    proverb: '"Muineann ga seift"',
-    irish: '"Ma ta riachtanas le rud smaoineoidh tu are chleas eigin chun e a dheanamh"',
+    proverb: '"Múineann gá seift"',
+    irish: '"Má tá riachtanas le rud smaoineoidh tú are chleas éigin chun é a dhéanamh"',
     english:  '"Necessity is the mother of invention"'
   };
 
   const proverb2 = {
     char_id: '1',
-    proverb: '"Nuair is crua don chailleach caithfidh si rith"',
-    irish: '"Nuair a bhionn an chailleach i gruachas bionn uirthi rith"',
+    proverb: '"Nuair is crua don chailleach caithfidh sí rith"',
+    irish: '"Nuair a bhíonn an chailleach i gruachás bíonn uirthi rith"',
     english:  'When the hag gets into difficulties she must run'
   };
 
   const proverb3 = {
     char_id: '2',
-    proverb: '"Bionn dha insint ar gach sceal"',
-    irish: '"Bionn dha thaobh le gach sceal"',
+    proverb: '"Bíonn dhá insint ar gach scéal"',
+    irish: '"Bíonn dhá thaobh le gach scéal"',
     english:  'There are two sides to every story'
   };
 
   const proverb4 = {
     char_id: '3',
-    proverb: '"Is easca an t-amadan is a mhaoin a scaradh ona cheile"',
-    irish: 'Caitheann fear na micheille an iomarca airgid',
+    proverb: '"Is éasca an t-amadán is a mhaoin a scaradh ona chéile"',
+    irish: 'Caitheann fear na míchéille an iomarca airgid',
     english:  'A fool and his money are soon parted'
   };
 
