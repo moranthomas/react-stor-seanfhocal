@@ -2,7 +2,10 @@
 
 import React  from 'react';
 //import React, { useState, useEffect, useRef } from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Banner from './components/ui/Banner';
 import Header from './components/ui/Header';
+import Footer from './components/ui/Footer';
 import ProverbGrid from './components/proverbs/ProverbGrid';
 //import Search from './components/ui/Search';
 import './App.css';
@@ -60,10 +63,13 @@ const App = () => {
 
   return (
     <div className='container'>
-      <Header />
-      {/**<Search getQuery={(q) => setQuery(q)} />**/}
-      <ProverbGrid isLoading={isLoading.current} items={proverbArray} />
-
+      <Router>
+        <Header />
+        <Banner />
+        {/**<Search getQuery={(q) => setQuery(q)} />**/}
+        <ProverbGrid isLoading={isLoading.current} items={proverbArray} />
+        <Footer />
+      </Router>
     </div>
   )
 }
