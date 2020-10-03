@@ -4,7 +4,7 @@ import React  from 'react';
 //import React, { useState, useEffect, useRef } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Banner from './components/ui/Banner';
-import Header from './components/ui/Header';
+import Header from './components/ui/Navbar';
 import Footer from './components/ui/Footer';
 import Purchase from './components/ui/Purchase';
 import ProverbGrid from './components/proverbs/ProverbGrid';

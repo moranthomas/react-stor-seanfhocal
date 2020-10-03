@@ -1,9 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import amazonImg from '../../img/Amazon-btn.png';
+import styled from "styled-components";
+import {Device} from "./Device";
 
-export default function Header() {
+const CardWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  margin: 10px;
+
+  @media ${Device.laptop} {
+    flex-direction: row;
+    max-width: 1200px;
+  }
+
+  @media ${Device.desktop} {
+    max-width: 2500px;
+  }
+
+  @media ${Device.mobileL} {
+    max-width: 305px;
+  }
+
+`;
+
+
+export default function Navbar() {
     return (
+
         <div style={headerStyle}>
             <br />
             <p style={ headerTextStyle}>Stór Seanfhocal </p>
@@ -14,10 +39,8 @@ export default function Header() {
                  <Link style={linkStyle} to="/play"> Reviews </Link>
                  <Link style={linkStyle} to="/play"> Order Now </Link>
             </p>
-
-            {/*<p><img src={amazonImg} style={amazonStyle} alt=''/> </p>*/}
-
         </div>
+
     )
 }
 
@@ -27,11 +50,6 @@ const linkBoxStyle = {
     gridGap: '10px 2em'
 }
 
-const amazonStyle = {
-    textAlign: 'center',
-    marginTop: '30px',
-    width: '120px'
-}
 
 const headerStyle = {
     color: '#fff',
@@ -45,7 +63,6 @@ const headerTextStyle = {
     fontSize: '50px',
     textAlign: 'center',
     color: '#f5d742',
-    /*color: '#f5b942',*/
     textDecoration: 'none'
 }
 

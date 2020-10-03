@@ -17,7 +17,7 @@ const amazonStyle = {
 
 const centerFlex = {
   position: 'absolute',
-  top: '13%',
+  top: '66%',
   left: '70%',
   transform: 'translate(-50%, -50%)',
   width: '120px'
