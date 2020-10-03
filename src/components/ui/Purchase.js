@@ -1,18 +1,25 @@
 import React from 'react'
-import logo from '../../img/front cover.png'
 import amazonImg from '../../img/Amazon-btn.png';
 
 const Purchase = () => {
   return (
-    <div>
+    <div style={centerFlex}>
       <img src={amazonImg} style={amazonStyle} alt=''/>
     </div>
   )
 }
 
 const amazonStyle = {
-  textAlign: 'right',
+  float: 'center',
   marginTop: '30px',
+  width: '100px'
+}
+
+const centerFlex = {
+  position: 'absolute',
+  top: '13%',
+  left: '70%',
+  transform: 'translate(-50%, -50%)',
   width: '120px'
 }
 
