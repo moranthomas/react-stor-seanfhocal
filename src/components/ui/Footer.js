@@ -13,18 +13,19 @@ export default function Footer() {
 const footerStyle = {
     color: '#6495ED',
     textAlign: 'right',
+    marginTop: '20px',
     padding: '10px'
 }
 
 const linkStyle = {
     fontSize: '15px',
-    color: '#fff',
+    color: 'grey',
     textDecoration: 'none',
 }
 
 const footerTextStyle = {
     fontSize: '40px',
     /*color: '#fff', */
-    color: '#000',
+    color: '#9042f5',
     textDecoration: 'none'
 }

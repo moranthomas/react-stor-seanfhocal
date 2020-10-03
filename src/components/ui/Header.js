@@ -11,7 +11,8 @@ export default function Header() {
                 <Link style={linkStyle} to="/"> Home </Link>
                  <Link style={linkStyle} to="/about"> About  </Link>
                  <Link style={linkStyle} to="/about"> The Author </Link>
-                 <Link style={linkStyle} to="/play"> Order </Link>
+                 <Link style={linkStyle} to="/play"> Reviews </Link>
+                 <Link style={linkStyle} to="/play"> Order Now </Link>
             </p>
 
             {/*<p><img src={amazonImg} style={amazonStyle} alt=''/> </p>*/}
@@ -44,6 +45,7 @@ const headerTextStyle = {
     fontSize: '50px',
     textAlign: 'center',
     color: '#f5d742',
+    /*color: '#f5b942',*/
     textDecoration: 'none'
 }
 

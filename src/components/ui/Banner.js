@@ -8,15 +8,8 @@ const Banner = () => {
       <header className='center'>
         <img src={logo} alt='' />
       </header>
-      <p><img src={amazonImg} style={amazonStyle} alt=''/> </p>
     </div>
   )
-}
-
-const amazonStyle = {
-  textAlign: 'right',
-  marginTop: '30px',
-  width: '120px'
 }
 
 export default Banner

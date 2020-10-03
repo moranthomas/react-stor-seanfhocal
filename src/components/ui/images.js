@@ -1,7 +1,8 @@
 import hammerImg from '../../img/hammer.png';
 import cailleachImg from '../../img/cailleach.png';
-import twoWaysImg from '../../img/2ways.png';
-import faceImg from '../../img/face.png';
+import fool2Img from '../../img/fool.png';
+import faceImg from '../../img/twoface.png';
+
 
 export default [
     {
@@ -14,6 +15,6 @@ export default [
         icon: faceImg
     },
     {
-        icon: twoWaysImg
+        icon: fool2Img
     },
 ];

@@ -7,9 +7,11 @@
 html,
 body {
   /**background: #000 url('img/bg.jpg') no-repeat center center/cover;**/
+  /*background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,113,1) 17%, rgba(0,212,255,1) 41%);*/
   background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 53%);
-  height: 100vh;
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,113,1) 11%, rgba(0,255,246,0) 35%);
+  height: 150vh;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,7 +80,7 @@ input[type='text'] {
 
 .card h1 {
   font-size: 20px;
-  border-bottom: 1px #fff solid;
+  border-bottom: 1px #f5d742 solid;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }

@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Banner from './components/ui/Banner';
 import Header from './components/ui/Header';
 import Footer from './components/ui/Footer';
+import Purchase from './components/ui/Purchase';
 import ProverbGrid from './components/proverbs/ProverbGrid';
 //import Search from './components/ui/Search';
 import './App.css';
@@ -68,6 +69,7 @@ const App = () => {
         <Banner />
         {/**<Search getQuery={(q) => setQuery(q)} />**/}
         <ProverbGrid isLoading={isLoading.current} items={proverbArray} />
+        <Purchase />
         <Footer />
       </Router>
     </div>
