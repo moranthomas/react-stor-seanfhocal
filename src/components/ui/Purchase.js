@@ -11,15 +11,15 @@ const Purchase = () => {
 
 const amazonStyle = {
   float: 'center',
-  marginTop: '30px',
-  width: '100px'
+  //marginTop: '30px',
+  width: '150px'
 }
 
 const centerFlex = {
-  position: 'absolute',
-  top: '66%',
-  left: '70%',
-  transform: 'translate(-50%, -50%)',
+  position: 'relative',
+  bottom: '-50px',
+  left: '50%',
+  transform: 'translate( -50%)',
   width: '120px'
 }
 
