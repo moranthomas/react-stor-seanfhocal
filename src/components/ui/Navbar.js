@@ -44,12 +44,6 @@ export default function Navbar() {
     )
 }
 
-const linkBoxStyle = {
-    display: 'grid',
-    gridTemplateColumns: '2fr 1fr 1fr 1fr 1fr',
-    gridGap: '10px 2em'
-}
-
 
 const headerStyle = {
     color: '#fff',
